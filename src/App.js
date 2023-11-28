@@ -3,7 +3,7 @@ import axios from 'axios';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import DetailPage from './pages/DetailPage';
-import './styles/App.scss';
+import './styles/App.sass'
 
 const App = () => {
   const [movies, setMovies] = useState([]);

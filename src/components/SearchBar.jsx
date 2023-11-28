@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import '../styles/SearchBar.sass';
 const SearchBar = ({ onSearch }) => {
   const [query, setQuery] = useState('');
 
@@ -15,7 +15,7 @@ const SearchBar = ({ onSearch }) => {
         value={query}
         onChange={(event) => setQuery(event.target.value)}
       />
-      <button type="submit">Search</button>
+      <button type="submit">영화 찾기</button>
     </form>
   );
 };

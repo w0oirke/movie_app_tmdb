@@ -1,5 +1,6 @@
 import React from 'react';
 import MovieDetail from '../components/MovieDetail';
+import '../styles/DetailPage.sass';
 
 const DetailPage = ({ movie }) => (
   <div>

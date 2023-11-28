@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/MovieList.sass';
 
 const MovieList = ({ movies }) => (
   <div>
