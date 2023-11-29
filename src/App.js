@@ -33,7 +33,7 @@ const App = () => {
     setSelectedMovie(movie);
   };
 
-  // Fetch movie details when the selected movie changes
+
   useEffect(() => {
     const fetchMovieDetails = async () => {
       if (selectedMovie) {

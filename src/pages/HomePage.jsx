@@ -4,7 +4,7 @@ import MovieList from '../components/MovieList';
 import '../styles/HomePage.sass';
 
 const HomePage = ({ movies, onSearch, onSelect }) => {
-  // Memoize the MovieList component
+
   const MemoizedMovieList = useMemo(() => {
     return React.memo(MovieList);
   }, []);

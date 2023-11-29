@@ -11,7 +11,7 @@ const SearchBar = ({ onSearch }) => {
 
   const handleClear = () => {
     setQuery('');
-    onSearch(''); // Optionally, you may want to trigger a search with an empty query
+    onSearch(''); 
   };
 
   return (
