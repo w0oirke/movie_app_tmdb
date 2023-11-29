@@ -7,6 +7,9 @@ const HomePage = ({ movies, onSearch, onSelect }) => (
   <div>
     <SearchBar onSearch={onSearch} />
     <MovieList movies={movies} onSelect={onSelect} />
+    <footer>
+        <p>© 2023. All Rights Reserved.</p>
+    </footer>
   </div>
 );
 
