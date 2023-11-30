@@ -13,9 +13,6 @@ const HomePage = ({ movies, onSearch, onSelect }) => {
     <div className="home-page">
       <SearchBar onSearch={onSearch} />
       <MemoizedMovieList movies={movies} onSelect={onSelect} />
-      <footer className="footer">
-        <p>© 2023. All Rights Reserved.</p>
-      </footer>
     </div>
   );
 };
