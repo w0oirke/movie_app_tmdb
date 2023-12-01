@@ -5,4 +5,6 @@ body {
     padding: 0;
     box-sizing: border-box;
     color: #333;
+    width: fit-content; /* 너비를 내용에 맞게 조절 */
+    height: fit-content; /* 높이를 내용에 맞게 조절 */
 }
