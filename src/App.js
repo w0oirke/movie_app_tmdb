@@ -1,9 +1,12 @@
+// import packages
 import React, { useState, useEffect } from 'react'; 
 import axios from 'axios';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+
+// import file
 import HomePage from './pages/HomePage';
 import DetailPage from './pages/DetailPage';
-import './styles/App.sass';
+import './App.css';
 
 const App = () => {
   const [movies, setMovies] = useState([]);
