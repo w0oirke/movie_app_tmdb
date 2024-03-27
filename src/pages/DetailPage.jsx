@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 
 // import file
-import MovieDetail from '../components/MovieDetail';
+import MovieDetail from '../components/MovieDetail.jsx';
 
 const DetailPage = ({ movie }) => {
   if (!movie) {

@@ -4,8 +4,8 @@ import axios from 'axios';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 
 // import file
-import HomePage from './pages/HomePage';
-import DetailPage from './pages/DetailPage';
+import HomePage from './pages/HomePage.jsx';
+import DetailPage from './pages/DetailPage.jsx';
 import './App.css';
 
 const App = () => {

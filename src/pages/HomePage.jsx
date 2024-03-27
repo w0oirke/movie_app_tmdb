@@ -4,8 +4,8 @@ import React, { useMemo } from 'react';
 import { Container } from 'react-bootstrap';
 
 // import file
-import SearchBar from '../components/SearchBar';
-import MovieList from '../components/MovieList';
+import SearchBar from '../components/SearchBar.jsx';
+import MovieList from '../components/MovieList.jsx';
 
 const HomePage = ({ movies, onSearch, onSelect }) => {
   const MemoizedMovieList = useMemo(() => {

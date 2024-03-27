@@ -3,8 +3,6 @@
 import React, { useState, useEffect } from 'react';
 import { Card } from 'react-bootstrap';
 
-// file import
-import '../styles/MovieDetail.sass';
 
 const MovieDetail = ({ movie }) => {
   const [imageLoaded, setImageLoaded] = useState(false);
